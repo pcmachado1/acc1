@@ -1,0 +1,82 @@
+
+<main id="contato">
+    <section class="row clearfix">
+        <div class="row-mapa" id="mapa"></div>
+        <div class="col-contato">
+            <div class="box-top">				
+                <div class="box-subtop">
+                    <span class="row center frase-contato">nossa equipe está a postos para te atender!</span>
+                    <form id="contato" class="row" method="post" action="http://www.artecasas.com.br/pt/contato/send_contato">
+                        <div class="box-form grande">
+                            <span class="row">Nome</span>
+                            <div class="row input-form">
+                                <input type="text" name="NOME" class="row validate[required]" value="">
+                            </div>
+                        </div>
+                        <div class="box-form">
+                            <span class="row">Email</span>
+                            <div class="row input-form">
+                                <input type="text" name="EMAIL" class="row validate[required,custom[email]]" value="">    
+                            </div>
+                        </div>
+                        <div class="box-form medio">
+                            <span class="row">Telefone</span>
+                            <div class="row input-form">
+                                <input type="text" name="TELEFONE" mascara="telefone" maxlength="15" autocomplete="off" class="row validate[required, custom[phone]]" value="">  
+                            </div>
+                        </div>
+                        <div class="box-form grande">
+                            <span class="row">Mensagem</span>
+                            <div class="row input-form mensagem">
+                                <textarea name="MENSAGEM" class="row validate[required]"></textarea>
+                            </div>
+                        </div>	
+                        <div class="row center">
+                            <button type="submit" class="btEnviar center">Enviar</button>	
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+<script type="text/javascript" src="http://www.artecasas.com.br/assets/js/site/contato.js" ></script>
+<div class="overlay"></div>
+<footer class="content center">
+    <div class="rodape row">
+        <div class="row">
+                        <div class="logo-rodape">
+                <img src="http://www.artecasas.com.br/assets/img/site/common/img/logo-rodape.png" alt="Arte Casas">
+            </div>
+            <div class="row">
+                <a href="https://www.facebook.com/artecasas" target="_blank" class="logo-face replace">Facebook</a>
+            </div>
+        </div>
+        <div class="row">
+            <p class="row texto-rodape">
+                <strong>(51) 3484.4939</strong><br>
+                Rodovia RS-020, Nº 3969 - Faixa de Taquara - Parada 68 - Gravataí - RS - CEP: 94100-250<br>
+                Segunda à sexta-feira - 8h30 às 12h - 13h30 às 18h | Sábados - 8h30 às 12h30 - 13h30 às 16h
+            </p>
+        </div>
+        <div class="row">
+            <p class="row direitos">arte casas © 2015. Todos os direitos reservados.</p>
+            <a href="http://wtagencia.com.br/" target="_blank" class="logo-wt">
+                <img src="http://www.artecasas.com.br/assets/img/site/common/img/logo-wt.png" alt="WT">
+            </a>
+        </div>
+    </div>
+</footer>
+<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-45959915-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script></body>
+</html>
