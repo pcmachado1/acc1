@@ -8,7 +8,7 @@ function initialize() {
     {
         name: "Arte Casas"
     });
-    var myLatlng = new google.maps.LatLng(-29.908243, -51.036470);
+    var myLatlng = new google.maps.LatLng(-29.9189909, -51.04841729999998);
     var mapOptions = {
         center: myLatlng,
         zoom: 17,
